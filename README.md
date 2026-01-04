@@ -30,6 +30,8 @@ Results
 Among 275 hospital admissions in the demo dataset, 32% (88 admissions) received at least one qualifying antibiotic. Of these, 19 admissions had negative time-to-antibiotic values and were excluded from timing summaries.
 Among the remaining 69 admissions, the median time from admission to first antibiotic administration was 1,220 minutes (~20.3 hours), with an interquartile range of 354 minutes (~5.9 hours) to 4,604 minutes (~3.2 days). The shortest observed time to antibiotic administration was 1 minute, and the longest was 22,607 minutes (~15.7 days).
 
+![Distribution of time to first antibiotic administration](figures/hist_time_to_abx_hours.png)
+
 Limitations
 
 Several limitations should be considered when interpreting these results. First, this analysis used the MIMIC-IV demo dataset, which is limited in size and may not reflect real-world hospital workflows. Second, antibiotic identification relied on text-based medication name matching, which may result in false positives or missed medications. Third, clinical indication for antibiotic use (e.g., sepsis, prophylaxis, or treatment of hospital-acquired infection) was not available, limiting clinical context for the observed timing patterns.
