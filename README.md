@@ -32,6 +32,8 @@ Among the remaining 69 admissions, the median time from admission to first antib
 
 ![Distribution of time to first antibiotic administration](figures/hist_time_to_abx_hours.png)
 
+*Figure 1. Distribution of time from hospital admission to first antibiotic administration.*
+
 Limitations
 
 Several limitations should be considered when interpreting these results. First, this analysis used the MIMIC-IV demo dataset, which is limited in size and may not reflect real-world hospital workflows. Second, antibiotic identification relied on text-based medication name matching, which may result in false positives or missed medications. Third, clinical indication for antibiotic use (e.g., sepsis, prophylaxis, or treatment of hospital-acquired infection) was not available, limiting clinical context for the observed timing patterns.
